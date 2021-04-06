@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry Blossoms</title>
+</head>
+
+<body>
+    <Header>
+        <H1>Cherry Blossoms around the World</H1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#festivals">Cherry Blossom Festivals</a>
+                </li>
+            </ul>
+        </nav>
+    </Header>
+    <main>
+        <p>A cherry blossom is a flower of many trees of genus Prunus or Prunus subg. Cerasus. They are also known as
+            Japanese cherry and sakura. They generally refer to ornamental cherry trees, not to edible cherry trees. It
+            is considered the national flower of Japan.
+        </p>
+        <p>Timing the cherry blossoms perfectly is a bit of a combination of research, perseverance, and luck since the
+            weather can shift the blossoms anywhere from a couple days early to a couple weeks late! So how do you plan
+            a trip to Japan way in advance in hopes of catching the Cherry Blossoms in bloom? Our advice is to aim to
+            catch it on the later side since catching it too early means you’ll just see a lot of barren trees. If you
+            manage to catch it right at peak that’s a bonus - but catching it late at least means the floor will be
+            covered in the blossoms and you’ll see them flying all over the place. The general consensus is that the
+            cherry blossoms start blooming around mid to late March and peak from late March to early April. The cherry
+            blossoms are still pretty after the peak, since they start to fall on the ground and the air is filled with
+            them.</p>
+
+        <section id="festivals">
+            <h2>Cherry Blossom Festivals in different countries</h2>
+            <p>There are Cherry Blossom Festivals in different countries. Check the table below to find one near you</p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">Festivals</th>
+
+                    </tr>
+                    <tr>
+                        <th>Country</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Japan</td>
+                        <td>Tokyo</td>
+                    </tr>
+                    <tr>
+                        <td>USA</td>
+                        <td>Washington D.C.</td>
+                    </tr>
+                    <tr>
+                        <td>South Korea</td>
+                        <td>Seoul</td>
+                    </tr>
+                    <tr>
+                        <td>Canada</td>
+                        <td>Vancouver</td>
+                    </tr>
+                    <tr>
+                        <td>Netherlands</td>
+                        <td>Amsterdam</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <form action="#" method="GET"><br>
+                <label for="username">Username: </label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password: </label>
+                <input type="password" id="password" name="password"><br><br>
+                <label for="age">Age: </label>
+                <input type="number" name="age" id="age"><br><br>
+                <label for="city">Where will you watch the cherry blossom</label>
+                <select name="city" id="city">
+                    <option value="Tokyo">Tokyo</option>
+                    <option value="Seoul">Seoul</option>
+                    <option value="Washington DC">Washington DC</option>
+                    <option value="Vancouver">Vancouver</option>
+                    <option value="Amsterdam">Amsterdam</option>
+                </select>
+
+
+            </form>
+            <br>
+        </section>
+        <section id="media">
+            <h2>Media</h2>
+            <figure>
+                <img src="/susann-schuster-V04PXzRkxWg-unsplash_Tokyo.jpg" alt="Cherry Blossom at Peak Bloom in Tokyo"
+                    width="200px" />
+                <figcaption>Tokyo</figcaption>
+            </figure>
+            <figure>
+                <img src="/library-of-congress-yNANhWCZG9c-unsplash_DC.jpg"
+                    alt="Cherry Blossom at Peak Bloom in Washington DC" width="200px" />
+                <figcaption>Washington DC</figcaption>
+            </figure>
+            <figure>
+                <img src="/chuwon-sun-4_47j6p93ZU-unsplash_SK.jpg" alt="Cherry Blossom at Peak Bloom in Seoul"
+                    width="200px" />
+                <figcaption>Seoul</figcaption>
+            </figure>
+        </section>
+    </main>
+    <Footer>
+        <a href="https://www.codecademy.com/ " target="_blank">codecademy.com</a>
+        <a href="https://usa.generation.org/ ">generation usa</a>
+        <p>Maya Buser De, Yasmine Evans, NushrutJahan Chowdhury, Antony Waweru, Amelework, Kalpana Gudipati
+        </p>
+
+    </Footer>
+</body>
+
+</html>
